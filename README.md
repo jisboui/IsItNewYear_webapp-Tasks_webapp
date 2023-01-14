@@ -2,7 +2,7 @@
 these are basic web application projects using the open-source python based web framework : Django.
 i've created these simple web apps to initiate myself in the world of web apps that i find interesting and i chose to start with django the framework that follows the model–template–views architectural pattern that i find particulary simpler and more efficient than other concurrent frameworks.
 ## setup  
-download the folder
+Clone the djproject folder
 then on your unix based terminal :
 - `cd (directory)` to directory of the folder
 - `python manage.py runserver` 
