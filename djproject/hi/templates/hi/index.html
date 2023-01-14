@@ -1,0 +1,22 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Hi page</title>
+    </head>
+    <body>
+        <h1> This is the hi application's home page </h1>
+        <p>(this is going to be a raw html application in order to only enfasise and put the focus on the concept of web app)</p>
+        <p>Hi to you, sir.</p>
+        <p>We need your name so that we can greet you properly.</p>
+        <p>In order to do that, you're gonna need to just edit the URL by just appending your name (also try to play around with other different names if you want) in the URL bar.</p>
+        <p> here's a little tuto if you wanna follow a video : </p>
+        <video width="500" height="300" controls >
+            <source src="{%static 'hi/hi.mp4' %}" type="video/mp4">
+          </video>
+        <ul>
+            <li><a href="http://127.0.0.1:8000/hi/john">or just click here for a quick demo if your name happen to be John and you're too lazy to write it yourself </a> </li>
+        </ul>
+        <p>NOTE : this is done using a render views function that allows using html which is a django property, feel free to browse the files and understand more the logic behind it</p>
+    </body>
+</html>

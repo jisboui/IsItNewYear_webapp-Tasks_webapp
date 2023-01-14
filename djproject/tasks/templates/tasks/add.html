@@ -1,0 +1,14 @@
+{% extends "tasks/layout.html" %}
+
+{% block body %}
+        <center><h1>Add Task</h1></center>
+        <br></br>
+        <center><form action="{% url 'tasks:add' %}" method="post" class="loginfrm">
+            {% csrf_token %}
+            {{ form }}
+            <input type="submit" >
+                </form>
+        </center>
+        <br></br>
+       <center><a href="{% url 'tasks:index' %}">Back to viewing tasks</a></center> 
+{% endblock %}
