@@ -9,5 +9,5 @@ then on your unix based terminal :
 and then try the URL which is usually `http://127.0.0.1:8000/(insert app name)` into your browser and voila.
 ## exploration 
 the code in relation to the content of the web apps is made in such way to make it easy to understand once browsed and looked at, that's why i provided little to no comments in the code.
-## Contribution
+## contribution
 Feel free to contribute and play around with the code to fit your own taste.
