@@ -7,6 +7,7 @@ then on your unix based terminal :
 - `cd (directory)` to directory of the folder
 - `python manage.py runserver` 
 and then try the URL which is usually `http://127.0.0.1:8000/(insert app name)` into your browser and voila.
+NOTE: you should already installed django
 ## exploration 
 the code in relation to the content of the web apps is made in such way to make it easy to understand once browsed and looked at, that's why i provided little to no comments in the code.
 ## contribution
