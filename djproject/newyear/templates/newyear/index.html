@@ -1,0 +1,19 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>is it newyears</title>
+        <link href="{% static 'newyear/styles.css' %}" rel="stylesheet" >
+        <link rel="icon" href="https://www.clipartmax.com/png/full/80-800773_new-year-icon-new-years-eve-icon-png.png" type = "image/x-icon">
+    </head>
+    <body>
+        {% if newyear %}
+            <h1> YES </h1>
+            <p> (you probably live under a rock to not know that  it is newyears you fool :3)</p>
+        {% else %}
+            <h2> NO </h2>
+            <p> (i'd advise to check a calendar instead of some random website but you got you're answer for now hehe)</p>
+        {% endif %}
+    </body>
+    
+</html> 
